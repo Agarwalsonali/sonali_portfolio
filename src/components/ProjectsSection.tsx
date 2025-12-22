@@ -37,9 +37,8 @@ const ProjectsSection = () => {
   return (
     <section
   id="projects"
-  className="section-padding bg-background relative overflow-hidden mb-32 md:mb-40"
+  className="relative z-10 bg-background py-32 md:py-40 mt-0"
 >
-
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-20">
