@@ -26,15 +26,15 @@ const ContactSection = () => {
 
     try {
       await emailjs.send(
-        "service_22ls9pr",
-        "template_b8m1y0l",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_name: "Sonali",
         },
-        "HYEwYkBj1hQO1EfSN"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
       setStatus("success");
