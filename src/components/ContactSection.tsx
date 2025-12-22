@@ -58,7 +58,7 @@ const ContactSection = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Sonali Agarwal",
-      href: "https://linkedin.com/in/sonali-agarwal",
+      href: "https://www.linkedin.com/in/sonali-agarwal-313b22292/",
       gradient: "from-blue-500 to-indigo-600",
     },
     {
