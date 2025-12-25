@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import profileImage from "../assets/profile-sonali.jpg";
+import { Download } from "lucide-react";
 
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 
@@ -102,6 +103,26 @@ const HeroSection = () => {
               <p className="text-gray-500 text-sm">Year Student</p>
             </div>
           </motion.div>
+
+          <motion.a
+              variants={fadeUp}
+              href="/resume/Resume.pdf"
+              download
+              className="inline-flex items-center gap-2
+                        mt-8
+                        px-6 py-2
+                        rounded-full
+                        text-sm font-semibold
+                        text-white
+                        bg-gradient-to-r from-purple-500 to-violet-600
+                        shadow-[0_0_20px_rgba(139,92,246,0.6)]
+                        hover:shadow-[0_0_30px_rgba(139,92,246,0.9)]
+                        hover:scale-105
+                        transition-all duration-300"
+            >
+              <Download className="w-4 h-4" />
+              Download Resume
+            </motion.a>
         </motion.div>
 
         {/* RIGHT */}
@@ -164,7 +185,9 @@ const HeroSection = () => {
           >
             <FaCss3Alt className="text-blue-500 text-2xl" />
           </motion.div>
+
         </div>
+         
       </div>
     </section>
   );

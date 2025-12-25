@@ -5,14 +5,14 @@ const projects = [
     title: "Car Rental Management System",
     description:
       "A comprehensive web application that allows users to browse available cars, make rental reservations, and manage their bookings online with a seamless user experience.",
-    techStack: ["React", "Node.js", "JWT", "MongoDB"],
+    techStack: ["React", "Node.js", "JWT", "MySQL"],
     features: [
       "User authentication with JWT",
       "Car browsing and filtering",
       "Booking management system",
       "Secure payment integration",
     ],
-    githubUrl: "https://github.com/Agarwalsonali",
+    githubUrl: "https://github.com/Agarwalsonali/Car-Rental-App",
     gradient: "from-blue-500 to-purple-500",
     emoji: "🚗",
   },
@@ -20,14 +20,14 @@ const projects = [
     title: "Todo Application",
     description:
       "A clean and intuitive task management application designed to help users organize daily tasks efficiently with add, edit, and delete functionality.",
-    techStack: ["React", "JavaScript", "CSS", "LocalStorage"],
+    techStack: ["React", "Node.js", "JWT", "MongoDB"],
     features: [
       "Add, edit, delete tasks",
       "Mark tasks as complete",
       "Persistent storage",
       "Responsive design",
     ],
-    githubUrl: "https://github.com/Agarwalsonali",
+    githubUrl: "https://github.com/Agarwalsonali/TodoApplication",
     gradient: "from-orange-400 to-pink-500",
     emoji: "✅",
   },
