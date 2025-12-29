@@ -152,14 +152,21 @@ const ProjectsSection = () => {
                   View Code
                 </a>
 
-                <button
+                <a
+                  href="https://todo-application-peach-nine.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-3 rounded-xl border
-                             hover:bg-muted hover:scale-105 transition group/btn"
+                            hover:bg-muted hover:scale-105 transition group/btn"
                 >
-                  <ExternalLink className="w-4 h-4" href="https://todo-application-peach-nine.vercel.app/" />
+                  <ExternalLink className="w-4 h-4" />
                   Demo
-                  <ArrowUpRight className="w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition" />
-                </button>
+                  <ArrowUpRight className="w-4 h-4 
+                    group-hover/btn:translate-x-1 
+                    group-hover/btn:-translate-y-1 
+                    transition"
+                  />
+                </a>
               </div>
             </div>
           ))}
