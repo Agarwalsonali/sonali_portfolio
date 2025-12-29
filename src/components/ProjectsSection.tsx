@@ -156,7 +156,7 @@ const ProjectsSection = () => {
                   className="flex items-center gap-2 px-5 py-3 rounded-xl border
                              hover:bg-muted hover:scale-105 transition group/btn"
                 >
-                  <ExternalLink className="w-4 h-4" />
+                  <ExternalLink className="w-4 h-4" href="https://todo-application-peach-nine.vercel.app/" />
                   Demo
                   <ArrowUpRight className="w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition" />
                 </button>
