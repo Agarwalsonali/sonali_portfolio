@@ -28,6 +28,7 @@ const projects = [
       "Responsive design",
     ],
     githubUrl: "https://github.com/Agarwalsonali/TodoApplication",
+    demoUrl: "https://todo-application-peach-nine.vercel.app",
     gradient: "from-orange-400 to-pink-500",
     emoji: "✅",
   },
@@ -153,7 +154,7 @@ const ProjectsSection = () => {
                 </a>
 
                 <a
-                  href="https://todo-application-peach-nine.vercel.app/"
+                  href={project.demoUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 px-5 py-3 rounded-xl border
